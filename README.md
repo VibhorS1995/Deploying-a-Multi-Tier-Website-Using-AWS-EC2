@@ -32,7 +32,7 @@ The company seeks high availability for this product and requires auto-scaling e
 - MySQL and PHP knowledge
 
 ## Detailed Documentation
-Please refer to the [Documentation](Project/Documentation/Deploying-Multi-Tier-Website-Using-AWS-EC2.pdf) for detailed steps and configurations.
+Please refer to the [Documentation](Project/Documentation/Deploying-Multi-Tier-Website-Using-AWS-EC2.md) for detailed steps and configurations.
 
 ## Source Code
 Find the source code in the [SourceCode](Project/SourceCode) folder.
