@@ -67,7 +67,7 @@ Created Auto scaling group to make the website highly available:
 
 Tested the website using the DNS name of Load balancer:
   
- ![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/tree/main/Project/Diagrams/Picture10.png)   
+ ![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/raw/main/Project/Diagrams/Picture10.png)   
 
 Value is added to the table.
 
