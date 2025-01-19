@@ -14,7 +14,7 @@ The company wants high availability on this product, therefore wants autoscaling
 Solution:
 Created an Ubuntu EC2 instance, installed php and mysql client on it.  
 
-![image](Project/Diagrams/Picture1.png)
+![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/tree/main/Project/Diagrams/Picture1.png)
 
 #!/bin/bash
 sudo apt-get update -y
@@ -24,11 +24,11 @@ sudo apt install php5.6 mysql-client php5.6-mysqli -y
 
 Created a RDS database.
 
-![image](Project/Diagrams/Picture2.png)
+![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/tree/main/Project/Diagrams/Picture2.png)
  
 Using filezilla copy the code to Ec2 instance.
 
-![image](Project/Diagrams/Picture3.png)
+![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/tree/main/Project/Diagrams/Picture3.png)
 
 
 Created a table data.
@@ -40,37 +40,37 @@ CREATE TABLE data (
 
 Tested the website:
 
-![image](Project/Diagrams/Picture4.png)
+![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/tree/main/Project/Diagrams/Picture4.png)
  
 
 Checked the table and data has been added in data table. 
 
-![image](Project/Diagrams/Picture5.png)  
+![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/tree/main/Project/Diagrams/Picture5.png)  
 
 Created an AMI for the EC2 machine that we have configured.
 
-![image](Project/Diagrams/Picture6.png)  
+![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/tree/main/Project/Diagrams/Picture6.png)  
 
 Created a Launch configuration:
 
-![image](Project/Diagrams/Picture7.png)  
+![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/tree/main/Project/Diagrams/Picture7.png)  
 
  Created an Application Load balancer:
 
-![image](Project/Diagrams/Picture8.png)  
+![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/tree/main/Project/Diagrams/Picture8.png)  
 
 
 Created Auto scaling group to make the website highly available:
 
-![image](Project/Diagrams/Picture9.png) 
+![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/tree/main/Project/Diagrams/Picture9.png) 
 
 
 Tested the website using the DNS name of Load balancer:
   
- ![image](Project/Diagrams/Picture10.png)   
+ ![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/tree/main/Project/Diagrams/Picture10.png)   
 
 Value is added to the table.
 
- ![image](Project/Diagrams/Picture11.png) 
+ ![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/main/Project/Diagrams/Picture11.png) 
 
  
