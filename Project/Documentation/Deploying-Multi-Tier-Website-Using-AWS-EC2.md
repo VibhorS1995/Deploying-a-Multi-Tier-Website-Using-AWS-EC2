@@ -71,6 +71,6 @@ Tested the website using the DNS name of Load balancer:
 
 Value is added to the table.
 
- ![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/main/Project/Diagrams/Picture11.png) 
+ ![image](https://github.com/VibhorS1995/Deploying-a-Multi-Tier-Website-Using-AWS-EC2/raw/main/Project/Diagrams/Picture11.png) 
 
  
